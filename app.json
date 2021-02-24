@@ -29,8 +29,5 @@
     }
    },
    "addons": [
-    "mongolab:sandbox",
-    "cloudinary:starter",
-    "papertrail:choklad"
   ]
 }
