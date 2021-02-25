@@ -2,6 +2,11 @@
 // customising the .env file in your project's root folder.
 require('dotenv').load();
 
+// Next app
+const next = require('next');
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+
 // Require keystone
 var keystone = require('keystone');
 
