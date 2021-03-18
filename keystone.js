@@ -29,6 +29,7 @@ keystone.init({
 	'auth': true,
 	'user model': 'User'
 	
+        'mongo': process.env.MONGODB_URI
 });
 
 // Load your project's Models
