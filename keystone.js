@@ -27,9 +27,9 @@ keystone.init({
 	'session': true,
 	'session store': 'mongo',
 	'auth': true,
-	'user model': 'User'
+	'user model': 'User',
 	
-        'mongo': process.env.MONGODB_URI
+        'mongo': process.env.MONGODB_URI || 'mongodb://localhost/keystone',
 });
 
 // Load your project's Models
