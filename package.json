@@ -4,16 +4,17 @@
   "private": true,
   "dependencies": {
     "async": "~1.2.1",
-    "connect-mongo": "~0.8.1",
+    "bson": "^0.4.23",
+    "connect-mongo": "^4.4.0",
     "dotenv": "1.1.0",
-    "keystone": "~0.3.19",
+    "keystone": "^4.0.0",
     "underscore": "~1.8.3"
   },
   "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-jshint": "~1.11.0",
-    "jshint-stylish": "~2.0.0",
-    "gulp-watch": "~4.2.4"
+    "gulp": "^4.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-watch": "~4.2.4",
+    "jshint-stylish": "~2.0.0"
   },
   "engines": {
     "node": ">=0.10.22",
