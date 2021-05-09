@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "async": "~1.2.1",
-    "bson": "^0.4.23",
+    "bson": "^1.1.4",
     "connect-mongo": "^4.4.0",
     "dotenv": "1.1.0",
     "keystone": "^4.0.0",
